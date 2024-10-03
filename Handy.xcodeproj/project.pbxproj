@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		542514632C8BA84100668AA7 /* HandyModel24.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 542514622C8BA84100668AA7 /* HandyModel24.mlmodel */; };
+		542514652C8C1EDF00668AA7 /* HandyModel30.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 542514642C8C1EDF00668AA7 /* HandyModel30.mlmodel */; };
+		54452A052C84692D0002EA5A /* HandyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54452A042C84692D0002EA5A /* HandyApp.swift */; };
+		54452A072C84692D0002EA5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54452A062C84692D0002EA5A /* ContentView.swift */; };
+		54452A092C84692F0002EA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54452A082C84692F0002EA5A /* Assets.xcassets */; };
+		54452A0C2C84692F0002EA5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54452A0B2C84692F0002EA5A /* Preview Assets.xcassets */; };
+		54452A152C846B290002EA5A /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54452A142C846B290002EA5A /* ARViewController.swift */; };
+		54452A182C846DCA0002EA5A /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54452A172C846DCA0002EA5A /* ARViewContainer.swift */; };
+		54452A1C2C8489B80002EA5A /* HandyModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 54452A1B2C8489B80002EA5A /* HandyModel.mlmodel */; };
+		54452A242C84D42F0002EA5A /* HandyModel2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 54452A232C84D42F0002EA5A /* HandyModel2.mlmodel */; };
+		54452A262C84D7A90002EA5A /* HandyModel3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 54452A252C84D7A90002EA5A /* HandyModel3.mlmodel */; };
+		54452A282C84DAF00002EA5A /* HandyModel4.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 54452A272C84DAEF0002EA5A /* HandyModel4.mlmodel */; };
+		54452A2A2C84F6450002EA5A /* HandyModel5.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 54452A292C84F6450002EA5A /* HandyModel5.mlmodel */; };
+		548FFC952C8C31AC0025E05D /* HandyModel100.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 548FFC942C8C31AC0025E05D /* HandyModel100.mlmodel */; };
+		548FFC972C8C34AA0025E05D /* HandyModelX.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 548FFC962C8C34AA0025E05D /* HandyModelX.mlmodel */; };
+		548FFC992C8C398C0025E05D /* HandyModelX2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 548FFC982C8C398C0025E05D /* HandyModelX2.mlmodel */; };
+		54B5A7C32C88C96E002DEB0B /* HandyModel6.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 54B5A7C22C88C96E002DEB0B /* HandyModel6.mlmodel */; };
+		54B5A7C52C890902002DEB0B /* HandyModel7.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 54B5A7C42C890902002DEB0B /* HandyModel7.mlmodel */; };
+		54B5A7C72C890DB0002DEB0B /* HandyModel8.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 54B5A7C62C890DB0002DEB0B /* HandyModel8.mlmodel */; };
+		54B5A7C92C89687B002DEB0B /* HandyModel10.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 54B5A7C82C89687B002DEB0B /* HandyModel10.mlmodel */; };
+		54B5A7CB2C8A27BB002DEB0B /* HandyModel11.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 54B5A7CA2C8A27BB002DEB0B /* HandyModel11.mlmodel */; };
+		54B5A7CD2C8A34B5002DEB0B /* HandyModel12.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 54B5A7CC2C8A34B5002DEB0B /* HandyModel12.mlmodel */; };
+		54B5A7CF2C8A3F56002DEB0B /* HandyModel14.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 54B5A7CE2C8A3F56002DEB0B /* HandyModel14.mlmodel */; };
+		54B5A7D12C8A44BA002DEB0B /* HandyModel16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 54B5A7D02C8A44B9002DEB0B /* HandyModel16.mlmodel */; };
+		54B5A7D32C8A8CEB002DEB0B /* HandModel20.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 54B5A7D22C8A8CEB002DEB0B /* HandModel20.mlmodel */; };
+		54B5A7D52C8A9144002DEB0B /* HandyModel21.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 54B5A7D42C8A9144002DEB0B /* HandyModel21.mlmodel */; };
+		54B5A7D72C8AA0CC002DEB0B /* HandyModel22.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 54B5A7D62C8AA0CC002DEB0B /* HandyModel22.mlmodel */; };
+		54B5A7D92C8BA0B6002DEB0B /* HandyModel23.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 54B5A7D82C8BA0B6002DEB0B /* HandyModel23.mlmodel */; };
+		54EF4FAA2C8F03B500A74557 /* HandyModelS.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 54EF4FA92C8F03B500A74557 /* HandyModelS.mlmodel */; };
+		54EF4FAC2C8F2F2E00A74557 /* HandyModelS2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 54EF4FAB2C8F2F2E00A74557 /* HandyModelS2.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		542514622C8BA84100668AA7 /* HandyModel24.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModel24.mlmodel; sourceTree = "<group>"; };
+		542514642C8C1EDF00668AA7 /* HandyModel30.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModel30.mlmodel; sourceTree = "<group>"; };
+		54452A012C84692D0002EA5A /* Handy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Handy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54452A042C84692D0002EA5A /* HandyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandyApp.swift; sourceTree = "<group>"; };
+		54452A062C84692D0002EA5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		54452A082C84692F0002EA5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54452A0B2C84692F0002EA5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54452A122C8469A90002EA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		54452A142C846B290002EA5A /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		54452A172C846DCA0002EA5A /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		54452A1B2C8489B80002EA5A /* HandyModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModel.mlmodel; sourceTree = "<group>"; };
+		54452A232C84D42F0002EA5A /* HandyModel2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModel2.mlmodel; sourceTree = "<group>"; };
+		54452A252C84D7A90002EA5A /* HandyModel3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModel3.mlmodel; sourceTree = "<group>"; };
+		54452A272C84DAEF0002EA5A /* HandyModel4.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModel4.mlmodel; sourceTree = "<group>"; };
+		54452A292C84F6450002EA5A /* HandyModel5.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModel5.mlmodel; sourceTree = "<group>"; };
+		548FFC942C8C31AC0025E05D /* HandyModel100.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModel100.mlmodel; sourceTree = "<group>"; };
+		548FFC962C8C34AA0025E05D /* HandyModelX.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModelX.mlmodel; sourceTree = "<group>"; };
+		548FFC982C8C398C0025E05D /* HandyModelX2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModelX2.mlmodel; sourceTree = "<group>"; };
+		54B5A7C22C88C96E002DEB0B /* HandyModel6.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModel6.mlmodel; sourceTree = "<group>"; };
+		54B5A7C42C890902002DEB0B /* HandyModel7.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModel7.mlmodel; sourceTree = "<group>"; };
+		54B5A7C62C890DB0002DEB0B /* HandyModel8.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModel8.mlmodel; sourceTree = "<group>"; };
+		54B5A7C82C89687B002DEB0B /* HandyModel10.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModel10.mlmodel; sourceTree = "<group>"; };
+		54B5A7CA2C8A27BB002DEB0B /* HandyModel11.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModel11.mlmodel; sourceTree = "<group>"; };
+		54B5A7CC2C8A34B5002DEB0B /* HandyModel12.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModel12.mlmodel; sourceTree = "<group>"; };
+		54B5A7CE2C8A3F56002DEB0B /* HandyModel14.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModel14.mlmodel; sourceTree = "<group>"; };
+		54B5A7D02C8A44B9002DEB0B /* HandyModel16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModel16.mlmodel; sourceTree = "<group>"; };
+		54B5A7D22C8A8CEB002DEB0B /* HandModel20.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandModel20.mlmodel; sourceTree = "<group>"; };
+		54B5A7D42C8A9144002DEB0B /* HandyModel21.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModel21.mlmodel; sourceTree = "<group>"; };
+		54B5A7D62C8AA0CC002DEB0B /* HandyModel22.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModel22.mlmodel; sourceTree = "<group>"; };
+		54B5A7D82C8BA0B6002DEB0B /* HandyModel23.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModel23.mlmodel; sourceTree = "<group>"; };
+		54EF4FA92C8F03B500A74557 /* HandyModelS.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModelS.mlmodel; sourceTree = "<group>"; };
+		54EF4FAB2C8F2F2E00A74557 /* HandyModelS2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandyModelS2.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		544529FE2C84692D0002EA5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5435CEE32C91F6C600BCEA3B /* SampleML */ = {
+			isa = PBXGroup;
+			children = (
+				54452A252C84D7A90002EA5A /* HandyModel3.mlmodel */,
+				54B5A7C22C88C96E002DEB0B /* HandyModel6.mlmodel */,
+				54452A1B2C8489B80002EA5A /* HandyModel.mlmodel */,
+				54B5A7C42C890902002DEB0B /* HandyModel7.mlmodel */,
+				54B5A7CC2C8A34B5002DEB0B /* HandyModel12.mlmodel */,
+				54B5A7D42C8A9144002DEB0B /* HandyModel21.mlmodel */,
+				548FFC962C8C34AA0025E05D /* HandyModelX.mlmodel */,
+				54B5A7D82C8BA0B6002DEB0B /* HandyModel23.mlmodel */,
+				54EF4FAB2C8F2F2E00A74557 /* HandyModelS2.mlmodel */,
+				54EF4FA92C8F03B500A74557 /* HandyModelS.mlmodel */,
+				548FFC982C8C398C0025E05D /* HandyModelX2.mlmodel */,
+				54B5A7CE2C8A3F56002DEB0B /* HandyModel14.mlmodel */,
+				548FFC942C8C31AC0025E05D /* HandyModel100.mlmodel */,
+				542514642C8C1EDF00668AA7 /* HandyModel30.mlmodel */,
+				542514622C8BA84100668AA7 /* HandyModel24.mlmodel */,
+				54452A292C84F6450002EA5A /* HandyModel5.mlmodel */,
+				54B5A7D02C8A44B9002DEB0B /* HandyModel16.mlmodel */,
+				54B5A7D62C8AA0CC002DEB0B /* HandyModel22.mlmodel */,
+				54B5A7D22C8A8CEB002DEB0B /* HandModel20.mlmodel */,
+				54B5A7C62C890DB0002DEB0B /* HandyModel8.mlmodel */,
+				54B5A7CA2C8A27BB002DEB0B /* HandyModel11.mlmodel */,
+				54452A232C84D42F0002EA5A /* HandyModel2.mlmodel */,
+				54452A272C84DAEF0002EA5A /* HandyModel4.mlmodel */,
+			);
+			path = SampleML;
+			sourceTree = "<group>";
+		};
+		544529F82C84692D0002EA5A = {
+			isa = PBXGroup;
+			children = (
+				54452A032C84692D0002EA5A /* Handy */,
+				54452A022C84692D0002EA5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54452A022C84692D0002EA5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54452A012C84692D0002EA5A /* Handy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54452A032C84692D0002EA5A /* Handy */ = {
+			isa = PBXGroup;
+			children = (
+				54452A162C846DB80002EA5A /* ARViewContainer */,
+				54452A132C846B0A0002EA5A /* ARViewController */,
+				54452A122C8469A90002EA5A /* Info.plist */,
+				54452A042C84692D0002EA5A /* HandyApp.swift */,
+				54452A062C84692D0002EA5A /* ContentView.swift */,
+				5435CEE32C91F6C600BCEA3B /* SampleML */,
+				54B5A7C82C89687B002DEB0B /* HandyModel10.mlmodel */,
+				54452A082C84692F0002EA5A /* Assets.xcassets */,
+				54452A0A2C84692F0002EA5A /* Preview Content */,
+			);
+			path = Handy;
+			sourceTree = "<group>";
+		};
+		54452A0A2C84692F0002EA5A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				54452A0B2C84692F0002EA5A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		54452A132C846B0A0002EA5A /* ARViewController */ = {
+			isa = PBXGroup;
+			children = (
+				54452A142C846B290002EA5A /* ARViewController.swift */,
+			);
+			path = ARViewController;
+			sourceTree = "<group>";
+		};
+		54452A162C846DB80002EA5A /* ARViewContainer */ = {
+			isa = PBXGroup;
+			children = (
+				54452A172C846DCA0002EA5A /* ARViewContainer.swift */,
+			);
+			path = ARViewContainer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54452A002C84692D0002EA5A /* Handy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54452A0F2C84692F0002EA5A /* Build configuration list for PBXNativeTarget "Handy" */;
+			buildPhases = (
+				544529FD2C84692D0002EA5A /* Sources */,
+				544529FE2C84692D0002EA5A /* Frameworks */,
+				544529FF2C84692D0002EA5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Handy;
+			productName = Handy;
+			productReference = 54452A012C84692D0002EA5A /* Handy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		544529F92C84692D0002EA5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					54452A002C84692D0002EA5A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 544529FC2C84692D0002EA5A /* Build configuration list for PBXProject "Handy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 544529F82C84692D0002EA5A;
+			productRefGroup = 54452A022C84692D0002EA5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54452A002C84692D0002EA5A /* Handy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		544529FF2C84692D0002EA5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54452A0C2C84692F0002EA5A /* Preview Assets.xcassets in Resources */,
+				54452A092C84692F0002EA5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		544529FD2C84692D0002EA5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B5A7C72C890DB0002DEB0B /* HandyModel8.mlmodel in Sources */,
+				54B5A7D52C8A9144002DEB0B /* HandyModel21.mlmodel in Sources */,
+				54B5A7D32C8A8CEB002DEB0B /* HandModel20.mlmodel in Sources */,
+				548FFC992C8C398C0025E05D /* HandyModelX2.mlmodel in Sources */,
+				54452A242C84D42F0002EA5A /* HandyModel2.mlmodel in Sources */,
+				54452A152C846B290002EA5A /* ARViewController.swift in Sources */,
+				54B5A7C32C88C96E002DEB0B /* HandyModel6.mlmodel in Sources */,
+				54452A182C846DCA0002EA5A /* ARViewContainer.swift in Sources */,
+				54B5A7CD2C8A34B5002DEB0B /* HandyModel12.mlmodel in Sources */,
+				54B5A7CF2C8A3F56002DEB0B /* HandyModel14.mlmodel in Sources */,
+				54452A1C2C8489B80002EA5A /* HandyModel.mlmodel in Sources */,
+				54B5A7D92C8BA0B6002DEB0B /* HandyModel23.mlmodel in Sources */,
+				548FFC952C8C31AC0025E05D /* HandyModel100.mlmodel in Sources */,
+				54452A282C84DAF00002EA5A /* HandyModel4.mlmodel in Sources */,
+				54452A072C84692D0002EA5A /* ContentView.swift in Sources */,
+				54B5A7C92C89687B002DEB0B /* HandyModel10.mlmodel in Sources */,
+				54B5A7D72C8AA0CC002DEB0B /* HandyModel22.mlmodel in Sources */,
+				54452A052C84692D0002EA5A /* HandyApp.swift in Sources */,
+				54452A2A2C84F6450002EA5A /* HandyModel5.mlmodel in Sources */,
+				54B5A7C52C890902002DEB0B /* HandyModel7.mlmodel in Sources */,
+				548FFC972C8C34AA0025E05D /* HandyModelX.mlmodel in Sources */,
+				54EF4FAA2C8F03B500A74557 /* HandyModelS.mlmodel in Sources */,
+				54EF4FAC2C8F2F2E00A74557 /* HandyModelS2.mlmodel in Sources */,
+				54B5A7D12C8A44BA002DEB0B /* HandyModel16.mlmodel in Sources */,
+				54452A262C84D7A90002EA5A /* HandyModel3.mlmodel in Sources */,
+				542514652C8C1EDF00668AA7 /* HandyModel30.mlmodel in Sources */,
+				54B5A7CB2C8A27BB002DEB0B /* HandyModel11.mlmodel in Sources */,
+				542514632C8BA84100668AA7 /* HandyModel24.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		54452A0D2C84692F0002EA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54452A0E2C84692F0002EA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54452A102C84692F0002EA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Handy/Preview Content\"";
+				DEVELOPMENT_TEAM = 4L2MSKX5Q6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Handy/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to capture frames for AR experiences.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdo.ios.mdo.Handy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54452A112C84692F0002EA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Handy/Preview Content\"";
+				DEVELOPMENT_TEAM = 4L2MSKX5Q6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Handy/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to capture frames for AR experiences.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdo.ios.mdo.Handy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		544529FC2C84692D0002EA5A /* Build configuration list for PBXProject "Handy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54452A0D2C84692F0002EA5A /* Debug */,
+				54452A0E2C84692F0002EA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54452A0F2C84692F0002EA5A /* Build configuration list for PBXNativeTarget "Handy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54452A102C84692F0002EA5A /* Debug */,
+				54452A112C84692F0002EA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 544529F92C84692D0002EA5A /* Project object */;
+}
